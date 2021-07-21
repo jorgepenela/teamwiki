@@ -1,0 +1,13 @@
+.formulario input, .formulario textarea{
+  width: 100%;
+}
+.formulario textarea{  
+  margin-top: 5px;
+}
+
+#guardar{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 99;;
+}

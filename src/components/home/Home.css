@@ -1,0 +1,33 @@
+.masonry-wrapper{
+  /*padding: 100px; */
+  max-width: 100%;
+  margin: 0 auto;
+}
+.masonry{
+  columns: 1;
+  column-gap: 10px;
+}
+.masonry-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  background: red;
+}
+.MuiPaper-root{
+    width: 100%;        
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+}
+/* tablet */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {  
+  .masonry {
+    columns: 2;
+  }
+}
+/* laptop*/
+@media only screen and (min-width: 1024px) {  
+  .masonry {
+    columns: 3;
+  }
+}
